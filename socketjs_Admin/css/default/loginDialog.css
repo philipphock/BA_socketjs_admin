@@ -1,0 +1,53 @@
+#dialogBlack,#msgdialogBlack{
+	position:fixed;
+	background-color: black;
+	opacity:0.6;
+	display: block;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+}
+#dialog,#msgdialog{
+	
+	position:fixed;
+	top:60px;
+	left:50%;
+	width:300px;
+	margin-left:-160px;
+	z-index:10000;
+	padding:0px;
+	background-color: #FFDB48;
+	border-radius:7px;
+	border:2px solid black;
+	text-align:left;	
+}
+#dialog h1,#msgdialog h1{
+	text-align:center;
+	background-color: black;
+	color: #FFDB48;
+	padding:4px;	
+}
+#dialogContent,#msgdialogContent{
+	padding:30px;	
+}
+#dialog #dialogContent #dialogMsg{
+	color:red;
+	text-align:left;
+	border:1px solid red;
+	margin-bottom:10px;
+	padding:4px 20px;
+}
+#dialog input, #dialog label,#dialog button,#msgdialog button{
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;	
+	width:95%;
+	margin-top:3px;
+	padding:3px;
+	margin-bottom:5px;
+}
+#dialog button,#msgdialog button{
+		margin-top:20px;
+}

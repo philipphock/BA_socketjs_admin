@@ -1,0 +1,18 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+	list-style: none;
+}
+a, a:hover,a:visited{
+	text-decoration: none;
+	color:black;
+}
+.hidden{
+	display:none;	
+}
+a:hover{
+	text-decoration:underline;
+}

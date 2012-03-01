@@ -1,0 +1,12 @@
+#authtbl{
+	
+	margin-left:auto;
+	margin-right:auto;
+}
+#authtbl th{
+	width:400px;
+}
+#authtbl textarea{
+	width:95%;
+	height:300px;
+}
