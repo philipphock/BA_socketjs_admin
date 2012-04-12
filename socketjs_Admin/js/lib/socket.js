@@ -104,6 +104,9 @@ function Socket(url,config){
 		}
 		
 	}
+	self.doClose = function(){
+		self.webSocket.close();
+	}
 	
 	self.initWebSocketProxyConnection = function(){
 		
